@@ -34,7 +34,7 @@
   </screenshots>
 
   <releases>
-    <release date="2021-11-24" version="257" type="stable"/>
+    <release date="2021-11-24" version="258" type="stable"/>
   </releases>
 
   <launchable type="desktop-id">cockpit-client.desktop</launchable>
