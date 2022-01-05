@@ -14,7 +14,7 @@
       Cockpit Client provides a graphical interface to your servers, containers, and virtual machines.  Connections are made over SSH, using the SSH configuration of the local user (including aliases, known hosts, key files, hardware tokens, etc).
     </p>
     <p>
-      The server needs only to have cockpit-bridge installed.  The Cockpit webserver doesn&apos;t need to be enabled, and no extra ports need to be opened.
+      The server needs to have Cockpit installed, but the Cockpit webserver doesn&apos;t need to be enabled, and no extra ports need to be opened.
     </p>
   </description>
 
@@ -34,6 +34,16 @@
   </screenshots>
 
   <releases>
+    <release date="2022-01-05" version="260" type="stable">
+      <url type="details">https://cockpit-project.org/blog/cockpit-260.html</url>
+      <description>
+        <p>Notable changes in this release:</p>
+        <ul>
+          <li>Show previously used hosts</li>
+          <li>Support port specification</li>
+        </ul>
+      </description>
+    </release>
     <release date="2021-12-08" version="259" type="stable"/>
     <release date="2021-11-24" version="258" type="stable"/>
   </releases>
