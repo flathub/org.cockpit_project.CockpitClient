@@ -1,6 +1,6 @@
 app-id: org.cockpit_project.CockpitClient
 runtime: org.gnome.Platform
-runtime-version: '41'
+runtime-version: '42'
 sdk: org.gnome.Sdk
 default-branch: stable
 command: cockpit-client
