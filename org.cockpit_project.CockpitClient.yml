@@ -1,8 +1,8 @@
 app-id: org.cockpit_project.CockpitClient
 runtime: org.gnome.Platform
-runtime-version: '41'
+runtime-version: '42'
 sdk: org.gnome.Sdk
-default-branch: stable
+default-branch: devel
 command: cockpit-client
 rename-icon: cockpit-client
 finish-args:
@@ -31,8 +31,8 @@ modules:
 
     sources:
       - type: archive
-        url: https://github.com/cockpit-project/cockpit/releases/download/263/cockpit-263.tar.xz
-        sha256: e82366f446122d99b4e8dcc7510ffe7be9a8c5ca216b9d027ef989ba46452bd9
+        url: https://github.com/cockpit-project/cockpit/releases/download/266/cockpit-266.tar.xz
+        sha256: 0abdb0c9dd631cfa7cd9b268452b4540c37cb2d74223d58a9a20033ace6e7d4f
 
       - type: file
         path: org.cockpit_project.CockpitClient.metainfo.xml
