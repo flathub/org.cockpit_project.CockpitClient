@@ -26,13 +26,8 @@ modules:
     make-args:
       - build-for-flatpak
     install-rule: install-for-flatpak
-    post-install:
-      - install -Dt /app/share/metainfo ${FLATPAK_ID}.metainfo.xml
 
     sources:
       - type: archive
-        url: https://github.com/cockpit-project/cockpit/releases/download/266/cockpit-266.tar.xz
-        sha256: 0abdb0c9dd631cfa7cd9b268452b4540c37cb2d74223d58a9a20033ace6e7d4f
-
-      - type: file
-        path: org.cockpit_project.CockpitClient.metainfo.xml
+        url: https://github.com/cockpit-project/cockpit/releases/download/267/cockpit-267.tar.xz
+        sha256: d1b6fb8f426a72a72c585a970296677a20ad32ea285f1f2d8a841e22ba26c2de
