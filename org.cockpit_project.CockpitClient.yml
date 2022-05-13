@@ -29,5 +29,5 @@ modules:
 
     sources:
       - type: archive
-        url: https://github.com/cockpit-project/cockpit/releases/download/267/cockpit-267.tar.xz
-        sha256: d1b6fb8f426a72a72c585a970296677a20ad32ea285f1f2d8a841e22ba26c2de
+        url: https://github.com/cockpit-project/cockpit/releases/download/269/cockpit-269.tar.xz
+        sha256: f3fa229cd9d7df5a567d163e26f3345c72f2422dc647b72b75d8afc384b9b4b8
