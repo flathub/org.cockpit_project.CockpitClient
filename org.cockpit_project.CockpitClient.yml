@@ -30,4 +30,4 @@ modules:
     sources:
       - type: archive
         url: https://github.com/cockpit-project/cockpit/releases/download/278/cockpit-278.tar.xz
-        sha256: b52bb3740fc998fbc3310053a5d6ac6f3ef29ccc317498b275c51a972ea5f5d7
+        sha256: ed417edd0acb429cecdde88f4f45a3785b3ced08387a41241aa84cbe9fcbed23
