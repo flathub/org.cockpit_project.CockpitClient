@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="279" date="2022-11-07">
+      <url type="details">https://cockpit-project.org/blog/cockpit-279.html</url>
+      <description>
+        <p>Changes in Cockpit 279:</p>
+        <ul>
+          <li>Dark theme support</li>
+        </ul>
+      </description>
+    </release>
     <release version="270" date="2022-05-24">
       <url type="details">https://cockpit-project.org/blog/cockpit-270.html</url>
       <description>
