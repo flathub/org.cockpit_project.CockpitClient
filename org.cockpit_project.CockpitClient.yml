@@ -1,6 +1,6 @@
 app-id: org.cockpit_project.CockpitClient
 runtime: org.gnome.Platform
-runtime-version: '42'
+runtime-version: '43'
 sdk: org.gnome.Sdk
 default-branch: stable
 command: cockpit-client
@@ -25,9 +25,13 @@ modules:
       - --disable-doc
     make-args:
       - build-for-flatpak
+    make-install-args:
+      - DOWNSTREAM_RELEASES_XML=org.cockpit_project.CockpitClient.releases.xml
     install-rule: install-for-flatpak
 
     sources:
       - type: archive
-        url: https://github.com/cockpit-project/cockpit/releases/download/270/cockpit-270.tar.xz
-        sha256: b52bb3740fc998fbc3310053a5d6ac6f3ef29ccc317498b275c51a972ea5f5d7
+        url: https://github.com/cockpit-project/cockpit/releases/download/281/cockpit-281.tar.xz
+        sha256: ff8d741dd474fa67cc5161e73431fa44b3ddc50be0ee3eae3cd21b7cd87cd7a6
+      - type: file
+        path: org.cockpit_project.CockpitClient.releases.xml
