@@ -31,7 +31,7 @@ modules:
 
     sources:
       - type: archive
-        url: https://github.com/cockpit-project/cockpit/releases/download/281/cockpit-281.tar.xz
-        sha256: ff8d741dd474fa67cc5161e73431fa44b3ddc50be0ee3eae3cd21b7cd87cd7a6
+        url: https://github.com/cockpit-project/cockpit/releases/download/292/cockpit-292.tar.xz
+        sha256: 760fe2c37f877abc6ef8853213c393e6d25b43f358d3133af7c8de27cb53cae4
       - type: file
         path: org.cockpit_project.CockpitClient.releases.xml
