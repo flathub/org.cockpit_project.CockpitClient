@@ -16,6 +16,7 @@ modules:
     buildsystem: autotools
     config-opts:
       - --enable-cockpit-client
+      - --enable-pybridge
       - --disable-polkit
       - --disable-ssh
       - --disable-pcp
@@ -35,3 +36,33 @@ modules:
         sha256: bad46057d7b087fc4c370cad51531f75c536ed6ec552031223dc73253612e3ef
       - type: file
         path: org.cockpit_project.CockpitClient.releases.xml
+
+  - name: cockpit-podman
+    buildsystem: simple
+    build-commands:
+      - make install PREFIX=/app
+
+    sources:
+      - type: archive
+        url: https://github.com/cockpit-project/cockpit-podman/releases/download/70/cockpit-podman-70.tar.xz
+        sha256: 10441bd2bc212b52a32d57d295fa6a932df32e5609c28da082d3d77025093b22
+
+  - name: cockpit-machines
+    buildsystem: simple
+    build-commands:
+      - make install PREFIX=/app
+
+    sources:
+      - type: archive
+        url: https://github.com/cockpit-project/cockpit-machines/releases/download/291/cockpit-machines-291.tar.xz
+        sha256: 5eb5d057aafd2200b0844d7a91bc47d365538af9ec800943df696c09445a5dfe
+
+  - name: cockpit-ostree
+    buildsystem: simple
+    build-commands:
+      - make install PREFIX=/app
+
+    sources:
+      - type: archive
+        url: https://github.com/cockpit-project/cockpit-ostree/releases/download/193/cockpit-ostree-193.tar.xz
+        sha256: ecc82698ac5e9a9486b7db361d26441c3a9897deecc40a9a802ad8e8702f52db
