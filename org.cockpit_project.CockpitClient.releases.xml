@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="294" date="2023-06-14">
+      <url type="details">https://cockpit-project.org/blog/cockpit-294.html</url>
+      <description>
+        <p>Changes in Cockpit 294:</p>
+        <ul>
+          <li>Introduce Python bridge on Fedora Rawhide and Debian unstable</li>
+        </ul>
+      </description>
+    </release>
     <release version="292" date="2023-05-16">
       <url type="details">https://cockpit-project.org/blog/cockpit-292.html</url>
       <description>
