@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
-    <release version="294.0.1" date="2023-06-14">
+    <release version="294.1" date="2023-06-15">
       <url type="details">https://cockpit-project.org/blog/cockpit-294.html</url>
       <description>
         <p>Changes in Cockpit 294.1:</p>
