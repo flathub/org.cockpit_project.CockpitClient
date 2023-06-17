@@ -1,0 +1,44 @@
+upstream: https://github.com/cockpit-project/cockpit/pull/18962
+
+From 6ad6ceadf3553d1bdcc03ae67dea3442346d7b4c Mon Sep 17 00:00:00 2001
+From: Allison Karlitskaya <allison.karlitskaya@redhat.com>
+Date: Sat, 17 Jun 2023 23:52:41 +0200
+Subject: [PATCH] python: use importlib.resources only on Python 3.11
+
+importlib.resources is supported from Python 3.7, but only Python 3.11
+contains a new enough version that non-filesystem-based loaders are
+supported as Traversables.
+
+That means that all Python versions from 3.7 through 3.10 were subtly
+broken when running out of a beipack.  That resulted in the beibooted
+bridge unable to become root, for example.
+
+Instead of playing games with imports, let's just hardcode the version
+we know to be working.
+---
+ src/cockpit/data/__init__.py | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+diff --git a/src/cockpit/data/__init__.py b/src/cockpit/data/__init__.py
+index 2acc7da65..e0ac720ce 100644
+--- a/src/cockpit/data/__init__.py
++++ b/src/cockpit/data/__init__.py
+@@ -1,11 +1,12 @@
+-try:
++import sys
++
++if sys.version_info >= (3, 11):
+     import importlib.resources
+ 
+     def read_cockpit_data_file(filename: str) -> bytes:
+         return (importlib.resources.files('cockpit.data') / filename).read_bytes()
+ 
+-except ImportError:
+-    # Python 3.6
++else:
+     import importlib.abc
+ 
+     def read_cockpit_data_file(filename: str) -> bytes:
+-- 
+2.40.1
+

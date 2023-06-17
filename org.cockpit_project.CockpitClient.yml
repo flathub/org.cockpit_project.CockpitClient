@@ -36,6 +36,8 @@ modules:
         sha256: ca44c4ceba6eacbcb7fed0f45dd2d6dfe166cff046787eae2d692dc229269275
       - type: file
         path: org.cockpit_project.CockpitClient.releases.xml
+      - type: patch
+        path: 0001-python-use-importlib.resources-only-on-Python-3.11.patch
 
   - name: cockpit-podman
     buildsystem: simple
