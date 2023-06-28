@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="295" date="2023-06-28">
+      <url type="details">https://cockpit-project.org/blog/cockpit-295.html</url>
+      <description>
+        <p>Changes in Cockpit 295:</p>
+        <ul>
+          <li>Cockpit Client can now connect to servers without Cockpit installed</li>
+        </ul>
+      </description>
+    </release>
     <release version="294" date="2023-06-14">
       <url type="details">https://cockpit-project.org/blog/cockpit-294.html</url>
       <description>
