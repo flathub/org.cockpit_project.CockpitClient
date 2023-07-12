@@ -8,8 +8,8 @@
     "sources": [
       {
         "type": "archive",
-        "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/293/cockpit-machines-293.tar.xz",
-        "sha256": "4b99d02d3a42a5f3f8a01e18543425ff44026656a5447d75f143af7c1f7f3b1e"
+        "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/294/cockpit-machines-294.tar.xz",
+        "sha256": "fceac81694e86eb2898784b9e7b2142d589cd389867adf1c1427d781482cca46"
       }
     ]
   },
