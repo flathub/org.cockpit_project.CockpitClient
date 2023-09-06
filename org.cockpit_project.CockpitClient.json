@@ -38,8 +38,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit/releases/download/297/cockpit-297.tar.xz",
-          "sha256": "09a7b443dc6f325417e6f8778c35700ac93d4df25e24ca823d10a7beb2398802"
+          "url": "https://github.com/cockpit-project/cockpit/releases/download/300/cockpit-300.tar.xz",
+          "sha256": "410fb044bdf434f93eeb5ad8fc167ab2518fb908cacbec9f1c16769af7522919"
         },
         {
           "type": "file",
@@ -56,8 +56,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/294/cockpit-machines-294.tar.xz",
-          "sha256": "fceac81694e86eb2898784b9e7b2142d589cd389867adf1c1427d781482cca46"
+          "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/298/cockpit-machines-298.tar.xz",
+          "sha256": "3b781857fd7138e2a69c380e9afd2b9ae19e260958e3b16d1f08b15360c269c0"
         }
       ]
     },
@@ -70,8 +70,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-ostree/releases/download/194/cockpit-ostree-194.tar.xz",
-          "sha256": "b356a9d29363145377dce2c5b2ad0bfa340426ad156d492f914b808aa8515a8f"
+          "url": "https://github.com/cockpit-project/cockpit-ostree/releases/download/197/cockpit-ostree-197.tar.xz",
+          "sha256": "64e643e2800093e4c380d8f8b38356541ffeca49d9d977b827a3e2c3a7c670e8"
         }
       ]
     },
@@ -84,8 +84,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-podman/releases/download/72/cockpit-podman-72.tar.xz",
-          "sha256": "fd71dd272896fd0d35ef333c11e928f2cb343f937a1d1894b15260e26bb7218b"
+          "url": "https://github.com/cockpit-project/cockpit-podman/releases/download/76/cockpit-podman-76.tar.xz",
+          "sha256": "04c3d4a7f206f039818342d27abea0c1a7c9c2a2a68051f78ac0adec280db91e"
         }
       ]
     }
