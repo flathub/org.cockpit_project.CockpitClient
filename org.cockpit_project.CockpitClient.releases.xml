@@ -1,6 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="301" date="2023-09-20">
+      <url type="details">https://cockpit-project.org/blog/cockpit-301.html</url>
+      <description>
+        <p>Changes in Cockpit 301:</p>
+        <ul>
+          <li>WireGuard support</li>
+          <li>Metrics: link to network interface details</li>
+        </ul>
+      </description>
+    </release>
     <release version="300" date="2023-09-06">
       <url type="details">https://cockpit-project.org/blog/cockpit-300.html</url>
       <description>

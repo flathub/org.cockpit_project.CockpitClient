@@ -19,7 +19,6 @@
       "buildsystem": "autotools",
       "config-opts": [
         "--enable-cockpit-client",
-        "--enable-pybridge",
         "--disable-polkit",
         "--disable-ssh",
         "--disable-pcp",
@@ -38,8 +37,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit/releases/download/300/cockpit-300.tar.xz",
-          "sha256": "410fb044bdf434f93eeb5ad8fc167ab2518fb908cacbec9f1c16769af7522919"
+          "url": "https://github.com/cockpit-project/cockpit/releases/download/301/cockpit-301.tar.xz",
+          "sha256": "4155c2778098d7be323864a4b95c3017c419dddd46a46d9b2a61cca82a50114f"
         },
         {
           "type": "file",
@@ -56,8 +55,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/298/cockpit-machines-298.tar.xz",
-          "sha256": "3b781857fd7138e2a69c380e9afd2b9ae19e260958e3b16d1f08b15360c269c0"
+          "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/299/cockpit-machines-299.tar.xz",
+          "sha256": "6a1d5140f8aa12b16a363f8c8154927806c607c453da89167744e68a632d3af1"
         }
       ]
     },
@@ -84,8 +83,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-podman/releases/download/76/cockpit-podman-76.tar.xz",
-          "sha256": "04c3d4a7f206f039818342d27abea0c1a7c9c2a2a68051f78ac0adec280db91e"
+          "url": "https://github.com/cockpit-project/cockpit-podman/releases/download/77/cockpit-podman-77.tar.xz",
+          "sha256": "032b9594d8dfb4f8d245f65cec4de2fc97dee20c52de1ab95300071ffcd8ea95"
         }
       ]
     }
