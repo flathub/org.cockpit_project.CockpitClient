@@ -1,7 +1,7 @@
 {
   "app-id": "org.cockpit_project.CockpitClient",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "43",
+  "runtime-version": "45",
   "sdk": "org.gnome.Sdk",
   "default-branch": "stable",
   "command": "cockpit-client",
