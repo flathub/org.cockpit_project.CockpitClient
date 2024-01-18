@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="309" date="2024-01-18">
+      <url type="details">https://cockpit-project.org/blog/cockpit-309.html</url>
+      <description>
+        <p>Changes in Cockpit 309:</p>
+        <ul>
+          <li>Storage: Introduce btrfs support</li>
+        </ul>
+      </description>
+    </release>
     <release version="307" date="2023-12-14">
       <url type="details">https://cockpit-project.org/blog/cockpit-307.html</url>
       <description>
