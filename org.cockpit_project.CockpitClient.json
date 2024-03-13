@@ -37,8 +37,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit/releases/download/309/cockpit-309.tar.xz",
-          "sha256": "f711fe06cda09bd5752d26536f0bbdeeeb8343e54fded599bd0531dcbe0f3162"
+          "url": "https://github.com/cockpit-project/cockpit/releases/download/313/cockpit-313.tar.xz",
+          "sha256": "089474580b1ab4fa8c73a41c8f1821da6fc5dd31fcf5bf6cec2b9a13749a7ad5"
         },
         {
           "type": "file",
@@ -55,8 +55,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/305/cockpit-machines-305.tar.xz",
-          "sha256": "e7703703793bd54f83a49d5f9273511233209f7d301c55ea366c7b203761c469"
+          "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/308.1/cockpit-machines-308.1.tar.xz",
+          "sha256": "94222b6120f73d3fd4564e8eac155696d126ea7bd42e0e8cf27ca29796fff48e"
         }
       ]
     },
@@ -69,8 +69,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-ostree/releases/download/199/cockpit-ostree-199.tar.xz",
-          "sha256": "b37f81750f2f52446e5f65e859a1b45336673cc0cbff625ef0707375791ebb4f"
+          "url": "https://github.com/cockpit-project/cockpit-ostree/releases/download/200/cockpit-ostree-200.tar.xz",
+          "sha256": "cd78d5383f9526017fb23be19f3d1deb1dd0efd1f018cb825ac12507fb54aec3"
         }
       ]
     },
@@ -83,8 +83,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-podman/releases/download/83/cockpit-podman-83.tar.xz",
-          "sha256": "0f8a9dd54e93ff132005ad090b214918b5d56e7e818dbb24e00e56864da28f54"
+          "url": "https://github.com/cockpit-project/cockpit-podman/releases/download/84.1/cockpit-podman-84.1.tar.xz",
+          "sha256": "5b094c08392cf9d553e156ffc4bfabad9197c4fda412dc572e0c5c427b606be7"
         }
       ]
     }
