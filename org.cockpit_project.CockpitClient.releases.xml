@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="314" date="2024-03-27">
+      <url type="details">https://cockpit-project.org/blog/cockpit-314.html</url>
+      <description>
+        <p>Changes in Cockpit 314:</p>
+        <ul>
+          <li>Storage: Improvements to read-only encrypted filesystems</li>
+        </ul>
+      </description>
+    </release>
     <release version="313" date="2024-03-13">
       <url type="details">https://cockpit-project.org/blog/cockpit-313.html</url>
       <description>
