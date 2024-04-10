@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component>
+  <releases>
+    <release version="314" date="2024-03-27">
+      <url type="details">https://cockpit-project.org/blog/cockpit-314.html</url>
+      <description>
+        <p>Changes in Cockpit 314:</p>
+        <ul>
+          <li>Storage: Improvements to read-only encrypted filesystems</li>
+        </ul>
+      </description>
+    </release>
+    <release version="313" date="2024-03-13">
+      <url type="details">https://cockpit-project.org/blog/cockpit-313.html</url>
+      <description>
+        <p>Changes in Cockpit 313:</p>
+        <ul>
+          <li>assorted bug fixes and improvements</li>
+        </ul>
+      </description>
+    </release>
+    <release version="309" date="2024-01-18">
+      <url type="details">https://cockpit-project.org/blog/cockpit-309.html</url>
+      <description>
+        <p>Changes in Cockpit 309:</p>
+        <ul>
+          <li>Storage: Introduce btrfs support</li>
+        </ul>
+      </description>
+    </release>
+    <release version="307" date="2023-12-14">
+      <url type="details">https://cockpit-project.org/blog/cockpit-307.html</url>
+      <description>
+        <p>Changes in Cockpit 307:</p>
+        <ul>
+          <li>Storage redesign</li>
+          <li>Machines: Change “Add disk” default behavior</li>
+        </ul>
+      </description>
+    </release>
+    <release version="303" date="2023-10-18">
+      <url type="details">https://cockpit-project.org/blog/cockpit-303.html</url>
+      <description>
+        <p>Changes in Cockpit 303:</p>
+        <ul>
+          <li>Apps: Warn if appstream data package is missing</li>
+          <li>Shell: Redesign untrusted "add host" dialog</li>
+        </ul>
+      </description>
+    </release>
+    <release version="301" date="2023-09-20">
+      <url type="details">https://cockpit-project.org/blog/cockpit-301.html</url>
+      <description>
+        <p>Changes in Cockpit 301:</p>
+        <ul>
+          <li>WireGuard support</li>
+          <li>Metrics: link to network interface details</li>
+        </ul>
+      </description>
+    </release>
+    <release version="300" date="2023-09-06">
+      <url type="details">https://cockpit-project.org/blog/cockpit-300.html</url>
+      <description>
+        <p>Changes in Cockpit 300:</p>
+        <ul>
+          <li>Celebrating the Nürnberg life release!</li>
+          <li>Storage: Support for growing block devices of a Stratis pool</li>
+        </ul>
+      </description>
+    </release>
+    <release version="297" date="2023-07-26">
+      <url type="details">https://cockpit-project.org/blog/cockpit-297.html</url>
+      <description>
+        <p>Changes in Cockpit 297:</p>
+        <ul>
+          <li>users: allow administrators to change the user shell</li>
+          <li>tools: Enable Python bridge on Fedora 38</li>
+        </ul>
+      </description>
+    </release>
+    <release version="296" date="2023-07-12">
+      <url type="details">https://cockpit-project.org/blog/cockpit-296.html</url>
+      <description>
+        <p>Changes in Cockpit 296:</p>
+        <ul>
+          <li>Performance and stability improvements</li>
+        </ul>
+      </description>
+    </release>
+    <release version="295" date="2023-06-28">
+      <url type="details">https://cockpit-project.org/blog/cockpit-295.html</url>
+      <description>
+        <p>Changes in Cockpit 295:</p>
+        <ul>
+          <li>Cockpit Client can now connect to servers without Cockpit installed</li>
+        </ul>
+      </description>
+    </release>
+    <release version="294" date="2023-06-14">
+      <url type="details">https://cockpit-project.org/blog/cockpit-294.html</url>
+      <description>
+        <p>Changes in Cockpit 294:</p>
+        <ul>
+          <li>Introduce Python bridge on Fedora Rawhide and Debian unstable</li>
+        </ul>
+      </description>
+    </release>
+    <release version="292" date="2023-05-16">
+      <url type="details">https://cockpit-project.org/blog/cockpit-292.html</url>
+      <description>
+        <p>Changes in Cockpit 292:</p>
+        <ul>
+          <li>Metrics: Add disk IO per service</li>
+          <li>Several right-to-left language fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release version="281" date="2022-12-01">
+      <url type="details">https://cockpit-project.org/blog/cockpit-281.html</url>
+      <description>
+        <p>Changes in Cockpit 281:</p>
+        <ul>
+          <li>Dark theme switcher</li>
+        </ul>
+      </description>
+    </release>
+    <release version="270" date="2022-05-24">
+      <url type="details">https://cockpit-project.org/blog/cockpit-270.html</url>
+      <description>
+        <p>Changes in Cockpit 270:</p>
+        <ul>
+          <li>Services: User-created timer deletion</li>
+          <li>System Diagnostics: Working with diagnostic reports has been improved</li>
+        </ul>
+      </description>
+    </release>
+    <release version="269" date="2022-05-12">
+      <url type="details">https://cockpit-project.org/blog/cockpit-269.html</url>
+      <description>
+        <p>Changes in Cockpit 269:</p>
+        <ul>
+          <li>Client: Initial support for dark mode</li>
+          <li>Metrics: Show Podman containers in top CPU and memory lists</li>
+        </ul>
+      </description>
+    </release>
+    <release version="268.1" date="2022-04-28">
+      <url type="details">https://cockpit-project.org/blog/cockpit-268.1.html</url>
+      <description>
+        <p>Changes in Cockpit 268.1:</p>
+        <ul>
+          <li>Software Updates: order kpatches before security updates</li>
+        </ul>
+      </description>
+    </release>
+    <release version="268" date="2022-04-28">
+      <url type="details">https://cockpit-project.org/blog/cockpit-268.html</url>
+      <description>
+        <p>Changes in Cockpit 268:</p>
+        <ul>
+          <li>Software Updates: Only install kpatches</li>
+        </ul>
+      </description>
+    </release>
+    <release version="267" date="2022-04-13">
+      <url type="details">https://cockpit-project.org/blog/cockpit-267.html</url>
+      <description>
+        <p>Changes in Cockpit 267:</p>
+        <ul>
+          <li>FIPS crypto policy support</li>
+        </ul>
+      </description>
+    </release>
+    <release version="266" date="2022-03-30">
+      <url type="details">https://cockpit-project.org/blog/cockpit-266.html</url>
+      <description>
+        <p>Changes in Cockpit 266:</p>
+        <ul>
+          <li>Show disk/memory/network sizes and rates in decimal units</li>
+          <li>storage: Ignore anything mounted like a Canonical "snap"</li>
+        </ul>
+      </description>
+    </release>
+    <release version="265" date="2022-03-16">
+      <url type="details">https://cockpit-project.org/blog/cockpit-265.html</url>
+      <description>
+        <p>Changes in Cockpit 265:</p>
+        <ul>
+          <li>Crypto policies support</li>
+          <li>Animate new rows in lists</li>
+          <li>Support for X-Forwarded-For</li>
+          <li>Manifest overrides in /etc and ~/.config directories</li>
+          <li>Metrics: Show busiest CPU core</li>
+        </ul>
+      </description>
+    </release>
+    <release version="264.1" date="2022-03-03">
+      <url type="details">https://cockpit-project.org/blog/cockpit-264.1.html</url>
+      <description>
+        <p>Changes in Cockpit 264.1:</p>
+        <ul>
+          <li>metrics: Fix link construction for user services</li>
+          <li>Translation updates (rhbz#2017340)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="264" date="2022-02-25">
+      <url type="details">https://cockpit-project.org/blog/cockpit-264.html</url>
+      <description>
+        <p>Changes in Cockpit 264:</p>
+        <ul>
+          <li>Metrics: Improve layout on small resolutions</li>
+          <li>Networking: Fix checkpoint handling and IP settings dialog</li>
+          <li>Services: Show error message instead of eternal "Loading..." state</li>
+          <li>Accounts: Add override button to confirm weak password</li>
+          <li>Accounts: Fix parsing of "last login" date</li>
+        </ul>
+      </description>
+    </release>
+    <release version="263" date="2022-02-16">
+      <url type="details">https://cockpit-project.org/blog/cockpit-263.html</url>
+      <description>
+        <p>Changes in Cockpit 263:</p>
+        <ul>
+          <li>Shell: Fix browser history</li>
+          <li>Cockpit-Client: Enable forward/back button</li>
+        </ul>
+      </description>
+    </release>
+    <release version="262" date="2022-02-02">
+      <url type="details">https://cockpit-project.org/blog/cockpit-262.html</url>
+      <description>
+        <p>Changes in Cockpit 262:</p>
+        <ul>
+          <li>Overview: Show scheduled shutdowns</li>
+          <li>Networking: Add firewall service description</li>
+        </ul>
+      </description>
+    </release>
+    <release version="261" date="2022-01-24">
+      <url type="details">https://cockpit-project.org/blog/cockpit-261.html</url>
+      <description>
+        <p>Changes in Cockpit 261:</p>
+        <ul>
+          <li>storage: Unmounting or deleting a busy filesystem is now supported</li>
+          <li>shell: Allow adding ssh keys with passphrase</li>
+        </ul>
+      </description>
+    </release>
+    <release version="260" date="2022-01-05">
+      <url type="details">https://cockpit-project.org/blog/cockpit-260.html</url>
+      <description>
+        <p>Changes in Cockpit 260:</p>
+        <ul>
+          <li>Certificate login validation: Action required on updates</li>
+          <li>Client: Show previously used hosts</li>
+          <li>Client: Support port specification</li>
+          <li>bridge: Warning on missing cockpit-system package</li>
+        </ul>
+      </description>
+    </release>
+    <release version="259" date="2021-12-08">
+      <url type="details">https://cockpit-project.org/blog/cockpit-259.html</url>
+      <description>
+        <p>Changes in Cockpit 259:</p>
+        <ul>
+          <li>storage: More information in table rows</li>
+        </ul>
+      </description>
+    </release>
+    <release version="258" date="2021-11-24">
+      <url type="details">https://cockpit-project.org/blog/cockpit-258.html</url>
+      <description>
+        <p>Changes in Cockpit 258:</p>
+        <ul>
+          <li>Tweak login screen UI</li>
+          <li>Use official VDO LVM API</li>
+          <li>Add cockpit-client, to be bundled as a flatpak</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>

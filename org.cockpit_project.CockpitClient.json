@@ -1,0 +1,92 @@
+{
+  "app-id": "org.cockpit_project.CockpitClient",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "45",
+  "sdk": "org.gnome.Sdk",
+  "default-branch": "stable",
+  "command": "cockpit-client",
+  "rename-icon": "cockpit-client",
+  "finish-args": [
+    "--talk-name=org.freedesktop.Flatpak",
+    "--socket=wayland",
+    "--socket=fallback-x11",
+    "--device=dri",
+    "--share=ipc"
+  ],
+  "modules": [
+    {
+      "name": "cockpit-client",
+      "buildsystem": "autotools",
+      "config-opts": [
+        "--enable-cockpit-client",
+        "--disable-polkit",
+        "--disable-ssh",
+        "--disable-pcp",
+        "--with-systemdunitdir=/invalid",
+        "CPPFLAGS=-Itools/mock-build-env",
+        "--with-admin-group=root",
+        "--disable-doc"
+      ],
+      "make-args": [
+        "build-for-flatpak"
+      ],
+      "make-install-args": [
+        "DOWNSTREAM_RELEASES_XML=org.cockpit_project.CockpitClient.releases.xml"
+      ],
+      "install-rule": "install-for-flatpak",
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://github.com/cockpit-project/cockpit/releases/download/314/cockpit-314.tar.xz",
+          "sha256": "a92955e73ec3d9569db74675268baaec963c07f6db12c1a64bb57a25b1eb0f6a"
+        },
+        {
+          "type": "file",
+          "path": "org.cockpit_project.CockpitClient.releases.xml"
+        }
+      ]
+    },
+    {
+      "name": "cockpit-machines",
+      "buildsystem": "simple",
+      "build-commands": [
+        "make install PREFIX=/app"
+      ],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/309/cockpit-machines-309.tar.xz",
+          "sha256": "9f49b21cbc5eb64576aff0fd6462f4cb2ac39c69a8041ef093a7df49ab70bd7e"
+        }
+      ]
+    },
+    {
+      "name": "cockpit-ostree",
+      "buildsystem": "simple",
+      "build-commands": [
+        "make install PREFIX=/app"
+      ],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://github.com/cockpit-project/cockpit-ostree/releases/download/200/cockpit-ostree-200.tar.xz",
+          "sha256": "cd78d5383f9526017fb23be19f3d1deb1dd0efd1f018cb825ac12507fb54aec3"
+        }
+      ]
+    },
+    {
+      "name": "cockpit-podman",
+      "buildsystem": "simple",
+      "build-commands": [
+        "make install PREFIX=/app"
+      ],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://github.com/cockpit-project/cockpit-podman/releases/download/85/cockpit-podman-85.tar.xz",
+          "sha256": "8699d43b92703a84b101dcad13f1776056b59c677979d61269cd5d1782dfac3f"
+        }
+      ]
+    }
+  ]
+}
