@@ -37,8 +37,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit/releases/download/314/cockpit-314.tar.xz",
-          "sha256": "a92955e73ec3d9569db74675268baaec963c07f6db12c1a64bb57a25b1eb0f6a"
+          "url": "https://github.com/cockpit-project/cockpit/releases/download/317/cockpit-317.tar.xz",
+          "sha256": "24cfe8cec706114fbd966e596128b23d37d43fdae6c0a4ae4363a1a5f631b359"
         },
         {
           "type": "file",
@@ -55,8 +55,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/309/cockpit-machines-309.tar.xz",
-          "sha256": "9f49b21cbc5eb64576aff0fd6462f4cb2ac39c69a8041ef093a7df49ab70bd7e"
+          "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/312/cockpit-machines-312.tar.xz",
+          "sha256": "bb3260010d3b55b7093745eee9bedf496a1d2bb65bdee2e505285c866afb4de9"
         }
       ]
     },
@@ -69,8 +69,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-ostree/releases/download/200/cockpit-ostree-200.tar.xz",
-          "sha256": "cd78d5383f9526017fb23be19f3d1deb1dd0efd1f018cb825ac12507fb54aec3"
+          "url": "https://github.com/cockpit-project/cockpit-ostree/releases/download/202/cockpit-ostree-202.tar.xz",
+          "sha256": "97492574872f926739b0b011d80f409622cec80be90bf4643f3019ad5999bc3f"
         }
       ]
     },
@@ -83,8 +83,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-podman/releases/download/85/cockpit-podman-85.tar.xz",
-          "sha256": "8699d43b92703a84b101dcad13f1776056b59c677979d61269cd5d1782dfac3f"
+          "url": "https://github.com/cockpit-project/cockpit-podman/releases/download/87/cockpit-podman-87.tar.xz",
+          "sha256": "e0052a66acaf0b81baf3ce8418ffb6e17a48d476ef333ff0c88161db34a59dfe"
         }
       ]
     }
