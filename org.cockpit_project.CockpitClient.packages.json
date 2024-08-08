@@ -8,8 +8,8 @@
     "sources": [
       {
         "type": "archive",
-        "url": "https://github.com/cockpit-project/cockpit-files/releases/download/3/cockpit-files-3.tar.xz",
-        "sha256": "6841ba6547922dd6688d2720d1abf383bbfe15e8ff42dc58cd46d2642a65cd06"
+        "url": "https://github.com/cockpit-project/cockpit-files/releases/download/4/cockpit-files-4.tar.xz",
+        "sha256": "849443de9bc53a39d30de49f1c4c73586fa2eb2174a4b293dfa131c83bcb340e"
       }
     ]
   },

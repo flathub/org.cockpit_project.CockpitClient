@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="322" date="2024-08-08">
+      <url type="details">https://cockpit-project.org/blog/cockpit-322.html</url>
+      <description>
+        <p>Changes in Cockpit 322:</p>
+        <ul>
+          <li>shell: Deprecate host switcher</li>
+        </ul>
+      </description>
+    </release>
     <release version="321" date="2024-07-10">
       <url type="details">https://cockpit-project.org/blog/cockpit-321.html</url>
       <description>
