@@ -3,7 +3,6 @@
   "runtime": "org.gnome.Platform",
   "runtime-version": "45",
   "sdk": "org.gnome.Sdk",
-  "default-branch": "stable",
   "command": "cockpit-client",
   "rename-icon": "cockpit-client",
   "finish-args": [
