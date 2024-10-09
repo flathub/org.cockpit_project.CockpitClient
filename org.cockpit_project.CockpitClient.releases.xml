@@ -1,6 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="326" date="2024-10-09">
+      <url type="details">https://cockpit-project.org/blog/cockpit-326.html</url>
+      <description>
+        <p>Changes in Cockpit 326:</p>
+        <ul>
+          <li>cockpit-pcp package is now obsolete</li>
+          <li>cockpit/ws container: Connect to servers without installed Cockpit</li>
+          <li>cockpit/ws container: Support host specific SSH keys</li>
+          <li>Storage: Support for Stratis filesystem sizes and limits</li>
+        </ul>
+      </description>
+    </release>
     <release version="325" date="2024-09-25">
       <url type="details">https://cockpit-project.org/blog/cockpit-325.html</url>
       <description>
