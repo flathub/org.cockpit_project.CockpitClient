@@ -8,8 +8,8 @@
     "sources": [
       {
         "type": "archive",
-        "url": "https://github.com/cockpit-project/cockpit-files/releases/download/11/cockpit-files-11.tar.xz",
-        "sha256": "79ded416ae1afda2314969c786b711668df763346ed7bf4d99a4b82197278164"
+        "url": "https://github.com/cockpit-project/cockpit-files/releases/download/14/cockpit-files-14.tar.xz",
+        "sha256": "696fece4f0a68f97e0788af17edc5667c52b3a8b50a274d0ca627cbbb8721f5d"
       }
     ]
   },
@@ -22,8 +22,8 @@
     "sources": [
       {
         "type": "archive",
-        "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/323/cockpit-machines-323.tar.xz",
-        "sha256": "46ee5de8b666ba3a923a875353a63ae5b12ed4a975eae99f13c4cf60215e4ffb"
+        "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/326/cockpit-machines-326.tar.xz",
+        "sha256": "c3adbaa47bf44e7f55b76d47b8fdaa809c7936a8d85c7e1d27298eebeec4214c"
       }
     ]
   },
@@ -36,8 +36,8 @@
     "sources": [
       {
         "type": "archive",
-        "url": "https://github.com/cockpit-project/cockpit-ostree/releases/download/205/cockpit-ostree-205.tar.xz",
-        "sha256": "a7598a3093b0d0cab5759d3d42f833e86e3cc3a6ec3a1b7d92e0e1662df8e09a"
+        "url": "https://github.com/cockpit-project/cockpit-ostree/releases/download/206/cockpit-ostree-206.tar.xz",
+        "sha256": "c115818bb337b58a9da7447e936ce9c35921f69117e1a08e3b21d73ecf7b6f51"
       }
     ]
   },
@@ -50,8 +50,8 @@
     "sources": [
       {
         "type": "archive",
-        "url": "https://github.com/cockpit-project/cockpit-podman/releases/download/98/cockpit-podman-98.tar.xz",
-        "sha256": "a6e503a5478733d9a683443a51913d0f866f86e8ecfa2f2b836c68dc89d36b8a"
+        "url": "https://github.com/cockpit-project/cockpit-podman/releases/download/99/cockpit-podman-99.tar.xz",
+        "sha256": "f957ba22f056b7f3e729057d573867ef9e29338a34df38306b6f66764ae107ae"
       }
     ]
   }
