@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="333" date="2025-02-13">
+      <url type="details">https://cockpit-project.org/blog/cockpit-333.html</url>
+      <description>
+        <p>Changes in Cockpit 333:</p>
+        <ul>
+          <li>various bug fixes and improvements</li>
+          <li>files: support copy&amp;pasting with administrator privileges</li>
+          <li>podman: automatically start podman.socket</li>
+        </ul>
+      </description>
+    </release>
     <release version="332" date="2025-01-29">
       <url type="details">https://cockpit-project.org/blog/cockpit-332.html</url>
       <description>
