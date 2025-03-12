@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="335" date="2025-03-12">
+      <url type="details">https://cockpit-project.org/blog/cockpit-335.html</url>
+      <description>
+        <p>Changes in Cockpit 335:</p>
+        <ul>
+          <li>storage: SMART support</li>
+        </ul>
+      </description>
+    </release>
     <release version="333" date="2025-02-13">
       <url type="details">https://cockpit-project.org/blog/cockpit-333.html</url>
       <description>
