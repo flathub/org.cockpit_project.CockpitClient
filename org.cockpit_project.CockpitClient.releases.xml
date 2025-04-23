@@ -1,6 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="337" date="2025-04-23">
+      <url type="details">https://cockpit-project.org/blog/cockpit-337.html</url>
+      <description>
+        <p>Changes in Cockpit 337:</p>
+        <ul>
+          <li>Upgraded to Patternfly 6</li>
+          <li>Support dnf needs-restarting</li>
+        </ul>
+      </description>
+    </release>
     <release version="335" date="2025-03-12">
       <url type="details">https://cockpit-project.org/blog/cockpit-335.html</url>
       <description>
