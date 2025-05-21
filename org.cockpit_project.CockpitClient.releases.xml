@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="339" date="2025-05-21">
+      <url type="details">https://cockpit-project.org/blog/cockpit-339.html</url>
+      <description>
+        <p>Changes in Cockpit 339:</p>
+        <ul>
+          <li>Add cockpit/ws arm64 container</li>
+          <li>Storage: Disk Self-Test error warnings on the overview page</li>
+          <li>Bug fixes and translation updates</li>
+        </ul>
+      </description>
+    </release>
     <release version="337" date="2025-04-23">
       <url type="details">https://cockpit-project.org/blog/cockpit-337.html</url>
       <description>
