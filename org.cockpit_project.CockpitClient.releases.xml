@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="341" date="2025-06-25">
+      <url type="details">https://cockpit-project.org/blog/cockpit-341.html</url>
+      <description>
+        <p>Changes in Cockpit 341:</p>
+        <ul>
+          <li>services: show link to podman page for quadlets</li>
+        </ul>
+      </description>
+    </release>
     <release version="340" date="2025-06-04">
       <url type="details">https://cockpit-project.org/blog/cockpit-340.html</url>
       <description>
