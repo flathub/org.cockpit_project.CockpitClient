@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="345" date="2025-08-20">
+      <url type="details">https://cockpit-project.org/blog/cockpit-345.html</url>
+      <description>
+        <p>Changes in Cockpit 345:</p>
+        <ul>
+          <li>Translation and dependency updates</li>
+          <li>Shorter IPv6 addresses</li>
+          <li>IPv6 addresses for WireGuard</li>
+        </ul>
+      </description>
+    </release>
     <release version="344" date="2025-08-06">
       <url type="details">https://cockpit-project.org/blog/cockpit-344.html</url>
       <description>
