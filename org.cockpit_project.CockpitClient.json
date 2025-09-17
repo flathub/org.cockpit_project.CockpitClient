@@ -33,8 +33,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit/releases/download/346/cockpit-346.tar.xz",
-          "sha256": "618c92cbbeb9265ff6bdf172ed8ea837ce6085ab936bd7a735abc8f661a01de1"
+          "url": "https://github.com/cockpit-project/cockpit/releases/download/347/cockpit-347.tar.xz",
+          "sha256": "a79653b403db3de794fe5d10900777f87aa8e164dfd3e54c7389bc143f9e6cfb"
         },
         {
           "type": "file",
@@ -65,8 +65,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/339/cockpit-machines-339.tar.xz",
-          "sha256": "ca522c01627d597347f26c5997dea9713432215988bfc89c91981033e6673b96"
+          "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/340/cockpit-machines-340.tar.xz",
+          "sha256": "b79d7aca35e665ec08bb9c8efa0adcc781a0a1a036093c495de78900126cc522"
         }
       ]
     },
