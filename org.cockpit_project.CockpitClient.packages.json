@@ -22,8 +22,8 @@
     "sources": [
       {
         "type": "archive",
-        "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/339/cockpit-machines-339.tar.xz",
-        "sha256": "ca522c01627d597347f26c5997dea9713432215988bfc89c91981033e6673b96"
+        "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/340/cockpit-machines-340.tar.xz",
+        "sha256": "b79d7aca35e665ec08bb9c8efa0adcc781a0a1a036093c495de78900126cc522"
       }
     ]
   },

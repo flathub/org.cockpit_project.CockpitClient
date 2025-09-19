@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="347" date="2025-09-17">
+      <url type="details">https://cockpit-project.org/blog/cockpit-347.html</url>
+      <description>
+        <p>Changes in Cockpit 347:</p>
+        <ul>
+          <li>Site-specific branding support</li>
+        </ul>
+      </description>
+    </release>
     <release version="346" date="2025-09-03">
       <url type="details">https://cockpit-project.org/blog/cockpit-346.html</url>
       <description>
