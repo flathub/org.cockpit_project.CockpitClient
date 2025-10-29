@@ -1,6 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="350" date="2025-10-29">
+      <url type="details">https://cockpit-project.org/blog/cockpit-350.html</url>
+      <description>
+        <p>Changes in Cockpit 350:</p>
+        <ul>
+          <li>networking: fix renaming of bridges and other groups (RHEL-117883)</li>
+          <li>bridge: fix OpenSSH_10.2p1 host key detection</li>
+        </ul>
+      </description>
+    </release>
     <release version="349" date="2025-10-15">
       <url type="details">https://cockpit-project.org/blog/cockpit-349.html</url>
       <description>
