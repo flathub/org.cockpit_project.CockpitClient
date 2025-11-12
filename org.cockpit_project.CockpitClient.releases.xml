@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="351" date="2025-11-12">
+      <url type="details">https://cockpit-project.org/blog/cockpit-351.html</url>
+      <description>
+        <p>Changes in Cockpit 351:</p>
+        <ul>
+          <li>Firewall ports can be deleted individually</li>
+        </ul>
+      </description>
+    </release>
     <release version="350" date="2025-10-29">
       <url type="details">https://cockpit-project.org/blog/cockpit-350.html</url>
       <description>
