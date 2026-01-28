@@ -1,6 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="355" date="2026-01-28">
+      <url type="details">https://cockpit-project.org/blog/cockpit-355.html</url>
+      <description>
+        <p>Changes in Cockpit 355:</p>
+        <ul>
+          <li>ws: Remove obsolete pam_cockpit_cert module</li>
+          <li>shell: add StartTransientUnit as a sudo alternative</li>
+        </ul>
+      </description>
+    </release>
     <release version="352" date="2025-11-27">
       <url type="details">https://cockpit-project.org/blog/cockpit-352.html</url>
       <description>
