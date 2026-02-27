@@ -33,8 +33,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit/releases/download/356/cockpit-356.tar.xz",
-          "sha256": "9f8b9801e3bc3c8da6f6f0cfca9ce405ea760cf1a7f536ec9b55d5cab4f977e9"
+          "url": "https://github.com/cockpit-project/cockpit/releases/download/357/cockpit-357.tar.xz",
+          "sha256": "8cfb30784d196e9fed885736bb560d82e49a7f96122c9c28ad768572a8078fe8"
         },
         {
           "type": "file",
@@ -51,8 +51,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-files/releases/download/36/cockpit-files-36.tar.xz",
-          "sha256": "4b7b539ac27576928b45910b9fead5bf0677f83dcdf4ad164a9f95527c23d212"
+          "url": "https://github.com/cockpit-project/cockpit-files/releases/download/37/cockpit-files-37.tar.xz",
+          "sha256": "0d67375ece3f4609e97244b5fc9b9a1146117a6c48e088bd5b14d667fbfdcb3d"
         }
       ]
     },
@@ -65,8 +65,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/348/cockpit-machines-348.tar.xz",
-          "sha256": "1800e154ea4723c83d827e2f6206e9b8c6329541100f37e4f10cc0e83fdabcd0"
+          "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/349.1/cockpit-machines-349.1.tar.xz",
+          "sha256": "130c3639ed6b44f14f79b497cadd35c178761d1e70dc6bb1afeb35fac466424d"
         }
       ]
     },
@@ -93,8 +93,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-podman/releases/download/121/cockpit-podman-121.tar.xz",
-          "sha256": "e7cf91d2e183965c0009955d5f4348da683430ed27a13917bc387120e1a63e1a"
+          "url": "https://github.com/cockpit-project/cockpit-podman/releases/download/122/cockpit-podman-122.tar.xz",
+          "sha256": "538a39ebbd4b2a85a38cc90f408759c32986a85b7cf48c936d6bce32bd9cd341"
         }
       ]
     }
