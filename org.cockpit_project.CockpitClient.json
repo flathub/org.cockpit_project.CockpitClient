@@ -33,8 +33,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit/releases/download/357/cockpit-357.tar.xz",
-          "sha256": "8cfb30784d196e9fed885736bb560d82e49a7f96122c9c28ad768572a8078fe8"
+          "url": "https://github.com/cockpit-project/cockpit/releases/download/358/cockpit-358.tar.xz",
+          "sha256": "405dc8f36b315fb5983eddd8d08d6e546d7e91da5d90898c797d2a48d65af291"
         },
         {
           "type": "file",
@@ -51,8 +51,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-files/releases/download/37/cockpit-files-37.tar.xz",
-          "sha256": "0d67375ece3f4609e97244b5fc9b9a1146117a6c48e088bd5b14d667fbfdcb3d"
+          "url": "https://github.com/cockpit-project/cockpit-files/releases/download/38/cockpit-files-38.tar.xz",
+          "sha256": "2bb0b84a09414881c08e50a2c6ddc7e9d1e8c5cda0a0c86e89d2f72f5593952d"
         }
       ]
     },
@@ -65,8 +65,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/349.1/cockpit-machines-349.1.tar.xz",
-          "sha256": "130c3639ed6b44f14f79b497cadd35c178761d1e70dc6bb1afeb35fac466424d"
+          "url": "https://github.com/cockpit-project/cockpit-machines/releases/download/350/cockpit-machines-350.tar.xz",
+          "sha256": "ba9ce84a383727c8b4ae69dd3dec0f47e33495cf081d56ed5c959f1ba5426bc4"
         }
       ]
     },
@@ -93,8 +93,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-podman/releases/download/122/cockpit-podman-122.tar.xz",
-          "sha256": "538a39ebbd4b2a85a38cc90f408759c32986a85b7cf48c936d6bce32bd9cd341"
+          "url": "https://github.com/cockpit-project/cockpit-podman/releases/download/123/cockpit-podman-123.tar.xz",
+          "sha256": "2935b230961725ba90fd4e132d492b56d702279591c8d8774e5015e9fb058990"
         }
       ]
     }
