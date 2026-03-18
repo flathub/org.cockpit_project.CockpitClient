@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="358" date="2026-03-18">
+      <url type="details">https://cockpit-project.org/blog/cockpit-358.html</url>
+      <description>
+        <p>Changes in Cockpit 358:</p>
+        <ul>
+          <li>Networking: Add Wi-Fi support</li>
+          <li>Cockpit Client updated to GTK 4</li>
+          <li>Bugfixes and translation updates</li>
+        </ul>
+      </description>
+    </release>
     <release version="357" date="2026-02-27">
       <url type="details">https://cockpit-project.org/blog/cockpit-357.html</url>
       <description>
