@@ -1,0 +1,40 @@
+{
+  "app-id": "org.cockpit_project.CockpitClient.App.files",
+  "runtime": "org.cockpit_project.CockpitClient",
+  "runtime-version": "master",
+  "sdk": "org.gnome.Sdk//49",
+  "build-extension": true,
+  "finish-args": [
+    "--talk-name=org.freedesktop.Flatpak",
+    "--socket=wayland",
+    "--socket=fallback-x11",
+    "--device=dri",
+    "--share=ipc"
+  ],
+  "modules": [
+    {
+      "name": "cockpit-files",
+      "buildsystem": "simple",
+      "build-options": {
+        "env": {
+          "PREFIX": "files"
+        }
+      },
+      "build-commands": [
+        "make install"
+      ],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://github.com/cockpit-project/cockpit-files/releases/download/35/cockpit-files-35.tar.xz",
+          "sha256": "084ab046c3f416f3bf0c0d7a4e0dc859bb31a99ba35cd6ce4391083f303784f3",
+          "x-checker-data": {
+            "type": "rotating-url",
+            "url": "https://github.com/cockpit-project/cockpit-files/releases/latest",
+            "pattern": "https://github.com/cockpit-project/cockpit-files/releases/download/([0-9.]+)/cockpit-files-([0-9.]+).tar.xz"
+          }
+        }
+      ]
+    }
+  ]
+}
