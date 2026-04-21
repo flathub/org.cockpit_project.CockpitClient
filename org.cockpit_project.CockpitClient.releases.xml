@@ -1,6 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="361" date="2026-04-21">
+      <url type="details">https://cockpit-project.org/blog/cockpit-361.html</url>
+      <description>
+        <p>Changes in Cockpit 361:</p>
+        <ul>
+          <li>Remove all "Mount" actions in Anaconda mode</li>
+          <li>Dependency updates</li>
+        </ul>
+      </description>
+    </release>
     <release version="360.1" date="2026-04-14">
       <url type="details">https://cockpit-project.org/blog/cockpit-360.1.html</url>
       <description>
