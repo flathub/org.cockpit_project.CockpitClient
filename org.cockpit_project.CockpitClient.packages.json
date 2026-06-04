@@ -8,8 +8,8 @@
     "sources": [
       {
         "type": "archive",
-        "url": "https://github.com/cockpit-project/cockpit-files/releases/download/40/cockpit-files-40.tar.xz",
-        "sha256": "629eacf71d15bbc2e0720ef56889932c9f1834a2647f185b48e70f7242550062"
+        "url": "https://github.com/cockpit-project/cockpit-files/releases/download/41/cockpit-files-41.tar.xz",
+        "sha256": "dfb7ce22d973bba68ccf2a6b1980d20f0573485f771ee77f0a2da5f379ecd261"
       }
     ]
   },
@@ -36,8 +36,8 @@
     "sources": [
       {
         "type": "archive",
-        "url": "https://github.com/cockpit-project/cockpit-ostree/releases/download/224/cockpit-ostree-224.tar.xz",
-        "sha256": "a77c7f2b572c8b1fc4fe9ae4ab551848395c626b7479683b7d240fe914f06bcf"
+        "url": "https://github.com/cockpit-project/cockpit-ostree/releases/download/225/cockpit-ostree-225.tar.xz",
+        "sha256": "ac2da66aa93e9d38b112841062b7b669bc482970ae0438543b2fd3adda526b7e"
       }
     ]
   },

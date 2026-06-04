@@ -1,7 +1,7 @@
 {
   "app-id": "org.cockpit_project.CockpitClient",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "49",
+  "runtime-version": "50",
   "sdk": "org.gnome.Sdk",
   "command": "cockpit-client",
   "rename-icon": "cockpit-client",
@@ -33,8 +33,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit/releases/download/362/cockpit-362.tar.xz",
-          "sha256": "e0615c01b0148016916b8888ba5043f4552d498cc5f28053864b2bf7cfdbfee8"
+          "url": "https://github.com/cockpit-project/cockpit/releases/download/363/cockpit-363.tar.xz",
+          "sha256": "546fb64d66e448c1b3cf0ad52752c582fd4fa6017a29578b488c7377c2fd74c9"
         },
         {
           "type": "file",
@@ -51,8 +51,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-files/releases/download/40/cockpit-files-40.tar.xz",
-          "sha256": "629eacf71d15bbc2e0720ef56889932c9f1834a2647f185b48e70f7242550062"
+          "url": "https://github.com/cockpit-project/cockpit-files/releases/download/41/cockpit-files-41.tar.xz",
+          "sha256": "dfb7ce22d973bba68ccf2a6b1980d20f0573485f771ee77f0a2da5f379ecd261"
         }
       ]
     },
@@ -79,8 +79,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/cockpit-project/cockpit-ostree/releases/download/224/cockpit-ostree-224.tar.xz",
-          "sha256": "a77c7f2b572c8b1fc4fe9ae4ab551848395c626b7479683b7d240fe914f06bcf"
+          "url": "https://github.com/cockpit-project/cockpit-ostree/releases/download/225/cockpit-ostree-225.tar.xz",
+          "sha256": "ac2da66aa93e9d38b112841062b7b669bc482970ae0438543b2fd3adda526b7e"
         }
       ]
     },
