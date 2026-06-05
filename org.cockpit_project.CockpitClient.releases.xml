@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="363.1" date="2026-06-04">
+      <url type="details">https://cockpit-project.org/blog/cockpit-363.1.html</url>
+      <description>
+        <p>Changes in Cockpit 363.1:</p>
+        <ul>
+          <li>packit: Fix cockpit-preview source urls</li>
+        </ul>
+      </description>
+    </release>
     <release version="362" date="2026-05-20">
       <url type="details">https://cockpit-project.org/blog/cockpit-362.html</url>
       <description>
