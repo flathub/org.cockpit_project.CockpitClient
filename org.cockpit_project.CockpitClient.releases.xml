@@ -1,6 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="368" date="2026-09-23">
+      <url type="details">https://cockpit-project.org/blog/cockpit-368.html</url>
+      <description>
+        <p>Changes in Cockpit 368:</p>
+        <ul>
+          <li>Limit concurrent connections CVE-2026-91149</li>
+          <li>Harden cockpit-ws against trailing slash CVE-2026-91147</li>
+          <li>Sanitize URLs from PackageKit CVE-2026-91148</li>
+          <li>Interactive file chooser for SSH keys</li>
+          <li>Bug fixes and translation updates</li>
+          <li>Resolves RHEL-263070, RHEL-262891, RHEL-253609 for rhel-10.4</li>
+          <li>Resolves RHEL-263066 for rhel-9.10</li>
+        </ul>
+      </description>
+    </release>
     <release version="367" date="2026-08-27">
       <url type="details">https://cockpit-project.org/blog/cockpit-367.html</url>
       <description>
