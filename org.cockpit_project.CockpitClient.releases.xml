@@ -1,6 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component>
   <releases>
+    <release version="372" date="2026-11-10">
+      <url type="details">https://cockpit-project.org/blog/cockpit-372.html</url>
+      <description>
+        <p>Changes in Cockpit 372:</p>
+        <ul>
+          <li>CVE-2026-91151</li>
+          <li>CVE-2026-91150</li>
+          <li>Link Red Hat issue references in changelogs</li>
+          <li>Support version-specific branding directories</li>
+        </ul>
+      </description>
+    </release>
     <release version="370" date="2026-10-22">
       <url type="details">https://cockpit-project.org/blog/cockpit-370.html</url>
       <description>
